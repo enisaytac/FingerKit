@@ -1,0 +1,4 @@
+/* İzin pencerelerindeki açıklamalar (Info.plist) */
+"NSBluetoothAlwaysUsageDescription" = "FingerKit 通过圆形菜单打开或关闭蓝牙。";
+"NSAppleEventsUsageDescription" = "FingerKit 通过圆形菜单在深色和浅色外观之间切换。";
+"NSDesktopFolderUsageDescription" = "FingerKit 会把新的截屏和录屏加入剪贴板历史。";

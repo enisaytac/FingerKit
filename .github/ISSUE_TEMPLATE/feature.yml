@@ -1,0 +1,10 @@
+name: Idea or feature request
+description: Suggest something new
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: What would you like FingerKit to do?
+      description: Describe the situation and what would help. (Türkçe de yazabilirsiniz.)
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+{
+  "notify": true,
+  "enabled": true,
+  "clipboard": {"screenshots": false, "enabled": true, "keepDays": 7, "keyCode": 9, "key": "V"},
+  "apps": [{"bundleID": "*", "name": "Her yerde", "bindings": [
+    {"gesture": "tipTapRight", "enabled": true, "shortcut": {"modifiers": ["control"], "keyCode": 48, "key": "⇥"}},
+    {"gesture": "tipTapLeft", "enabled": true, "shortcut": {"modifiers": ["control", "shift"], "keyCode": 48, "key": "⇥"}}
+  ]}],
+  "hyper": {"enabled": true, "move": false, "bindings": [], "snaps": []},
+  "appShortcuts": {"apps": [], "enabled": true},
+  "radial": {"controls": ["bluetooth", "volume", "brightness", "airDrop"],
+    "appPins": [{"bundleID": "com.apple.Safari", "name": "Safari"}, {"bundleID": "com.apple.finder", "name": "Finder"},
+                {"bundleID": "com.apple.mail", "name": "Mail"}, {"bundleID": "com.apple.iCal", "name": "Calendar"},
+                {"bundleID": "com.apple.Music", "name": "Music"}, {"bundleID": "com.apple.Photos", "name": "Photos"}],
+    "enabled": true, "shortcutPins": {}, "corner": "bottomLeft"}
+}

@@ -1,0 +1,4 @@
+/* İzin pencerelerindeki açıklamalar (Info.plist) */
+"NSBluetoothAlwaysUsageDescription" = "FingerKit, daire menüden Bluetooth'u açıp kapatır.";
+"NSAppleEventsUsageDescription" = "FingerKit, daire menüden koyu ve açık görünüm arasında geçer.";
+"NSDesktopFolderUsageDescription" = "FingerKit, yeni ekran görüntülerini ve ekran kayıtlarını pano geçmişine ekler.";

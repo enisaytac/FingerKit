@@ -1,0 +1,4 @@
+/* İzin pencerelerindeki açıklamalar (Info.plist) */
+"NSBluetoothAlwaysUsageDescription" = "FingerKit activa y desactiva el Bluetooth desde el menú circular.";
+"NSAppleEventsUsageDescription" = "FingerKit cambia entre aspecto oscuro y claro desde el menú circular.";
+"NSDesktopFolderUsageDescription" = "FingerKit añade tus nuevas capturas y grabaciones de pantalla al historial del portapapeles.";

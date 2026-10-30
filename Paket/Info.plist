@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.enisaytac.fingerkit</string>
+    <key>CFBundleName</key>
+    <string>FingerKit</string>
+    <key>CFBundleDisplayName</key>
+    <string>FingerKit</string>
+    <key>CFBundleExecutable</key>
+    <string>FingerKit</string>
+    <key>CFBundleIconFile</key>
+    <string>FingerKit</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <!-- Mac'in dili listede yoksa İngilizce görünür -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>tr</string>
+        <string>de</string>
+        <string>es</string>
+        <string>fr</string>
+        <string>ja</string>
+        <string>pt-BR</string>
+        <string>zh-Hans</string>
+    </array>
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2026 Enis Aytaç. MIT License.</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0</string>
+    <!-- Dock'ta görünmez, yalnız menü çubuğunda durur -->
+    <key>LSUIElement</key>
+    <true/>
+    <!-- Daire menüdeki Denetim Merkezi düğmeleri: Bluetooth anahtarı ve koyu görünüm (Sistem Olayları) -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>FingerKit turns Bluetooth on and off from the radial menu.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>FingerKit switches between dark and light appearance from the radial menu.</string>
+    <!-- Pano: ekran görüntüleri Masaüstü'ne kaydedilir; yeni olanlar listeye düşsün diye klasöre bakılır -->
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>FingerKit adds your new screenshots and screen recordings to the clipboard history.</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+</dict>
+</plist>

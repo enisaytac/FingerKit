@@ -1,0 +1,4 @@
+/* İzin pencerelerindeki açıklamalar (Info.plist) */
+"NSBluetoothAlwaysUsageDescription" = "FingerKitは円形メニューからBluetoothをオン／オフします。";
+"NSAppleEventsUsageDescription" = "FingerKitは円形メニューからダークとライトの外観を切り替えます。";
+"NSDesktopFolderUsageDescription" = "FingerKitは新しいスクリーンショットと画面収録をクリップボード履歴に追加します。";

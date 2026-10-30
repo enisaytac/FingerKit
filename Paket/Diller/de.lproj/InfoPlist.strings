@@ -1,0 +1,4 @@
+/* İzin pencerelerindeki açıklamalar (Info.plist) */
+"NSBluetoothAlwaysUsageDescription" = "FingerKit schaltet Bluetooth über das Kreismenü ein und aus.";
+"NSAppleEventsUsageDescription" = "FingerKit wechselt über das Kreismenü zwischen dunklem und hellem Erscheinungsbild.";
+"NSDesktopFolderUsageDescription" = "FingerKit fügt neue Bildschirmfotos und -aufnahmen zum Verlauf der Zwischenablage hinzu.";
