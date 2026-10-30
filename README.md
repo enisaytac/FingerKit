@@ -32,6 +32,7 @@
 </p>
 
 ```sh
+brew trust enisaytac/tap   # Homebrew 7+ asks you to trust taps outside Homebrew once
 brew install --cask enisaytac/tap/fingerkit
 ```
 
@@ -117,6 +118,7 @@ A 4-finger tap for a screenshot, a 3-finger click to open links in a new tab: ev
 ### Homebrew
 
 ```sh
+brew trust enisaytac/tap   # Homebrew 7+ asks you to trust taps outside Homebrew once
 brew install --cask enisaytac/tap/fingerkit
 ```
 
@@ -215,7 +217,7 @@ Released under the [MIT License](LICENSE): free to use, change and share, provid
 
 ![FingerKit tanıtım](docs/fingerkit-tanitim.gif)
 
-**Kurulum:** `brew install --cask enisaytac/tap/fingerkit` ya da [son sürümden](https://github.com/enisaytac/FingerKit/releases/latest) zip'i indir, `FingerKit.app`'i **Uygulamalar** klasörüne taşı ve aç. macOS "geliştirici doğrulanamadı" derse **Bitti**'ye bas, sonra **Sistem Ayarları › Gizlilik ve Güvenlik**'te aşağı inip FingerKit'in yanındaki **Yine de Aç**'a tıkla (yalnız ilk sefer). Apple'ın ücretli onayı olmadığı için bu uyarı çıkar; kodun tamamı burada.
+**Kurulum:** `brew trust enisaytac/tap` (Homebrew 7 ve sonrası bir kez ister), ardından `brew install --cask enisaytac/tap/fingerkit` ya da [son sürümden](https://github.com/enisaytac/FingerKit/releases/latest) zip'i indir, `FingerKit.app`'i **Uygulamalar** klasörüne taşı ve aç. macOS "geliştirici doğrulanamadı" derse **Bitti**'ye bas, sonra **Sistem Ayarları › Gizlilik ve Güvenlik**'te aşağı inip FingerKit'in yanındaki **Yine de Aç**'a tıkla (yalnız ilk sefer). Apple'ın ücretli onayı olmadığı için bu uyarı çıkar; kodun tamamı burada.
 
 **İzinler:** Erişilebilirlik (zorunlu: trackpad'i okumak ve kısayol göndermek için), Tam Disk Erişimi (isteğe bağlı: yalnız daire menüde en çok kullandığın uygulamaları görmek için).
 
